@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+
     <!-- tailwindcss -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <!-- custom css -->
     <link rel="stylesheet" href="./Styles/home.css">
 
 </head>
 
 <body class="text-white inter">
-    <header class="bg-[#1A0B2E] flex justify-around py-4 items-center">
+    <!-- I couldn't find small device width in tailwindcss as required in the assignment. so I used the custom css for that. -->
+    <header class="bg-[#1A0B2E] flex justify-around py-4 items-center ">
         <img src="./assets/TechWave.svg" alt="TechWave Logo">
         <nav>
             <ul class="flex gap-8">
@@ -39,7 +43,7 @@
     </header>
     <hr class="text-[1px] text-violet-900">
 
-    <section class="hero-section py-24">
+    <section class="hero-section py-24 ">
         <div class="flex flex-col justify-center items-center">
             <div class="relative">
                 <img src="./assets/hero-circle.png" alt="circle">

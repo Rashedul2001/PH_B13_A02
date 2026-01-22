@@ -22,7 +22,7 @@
 }
 
 .hero-section {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url("/assets/hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
