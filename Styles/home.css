@@ -17,7 +17,8 @@
 .btn-gradient {
     background: linear-gradient(30deg, #F7E93F 10%, #FB09B4 50%, #9100F8 80%);
     gap: 6px;
-    border-radius: 40px;
+    /* this is border radius full in tailwindcss */
+    border-radius: 10000px;
     padding: 12px 18px;
 
 }
@@ -28,6 +29,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
 
-
+.footer-bg {
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }

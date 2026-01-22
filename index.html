@@ -39,7 +39,7 @@
                 alt="ArrowRight"></button>
     </header>
     <hr class="text-[1px] text-violet-900">
-
+    <!-- hero section -->
     <section class="hero-section py-24 ">
         <div class="flex flex-col justify-center items-center">
             <div class="relative">
@@ -60,6 +60,7 @@
             </div>
         </div>
     </section>
+    <!-- about section -->
     <section class="bg-[#1A0B2E] text-center pt-12 pb-20">
         <h1 class="text-5xl font-bold">
             About the Podcast
@@ -74,6 +75,7 @@
     </section>
     <!-- couldn't apply the hr  -->
     <!-- <hr class="border-0 h-px bg-white opacity-10 w-1/2 mx-auto"> -->
+    <!-- record section -->
     <section class="pt-20 pb-28 flex gap-20 justify-center bg-[#1a0b2e]">
         <div class="text-center ">
             <p class="text-[#00FF88] text-5xl font-black ">150K+</p>
@@ -92,6 +94,7 @@
             <p class="uppercase opacity-80 mt-4 ">Industry Experts</p>
         </div>
     </section>
+    <!-- why choose section -->
     <section class="bg-[#230E3D] px-52 py-32">
         <h1 class="text-center text-5xl font-bold mb-10 ">
             Why Choose TechWave
@@ -131,12 +134,11 @@
             </div>
         </div>
     </section>
-
-    <section class="bg-[#1A0B2E] py-28 px-48 ">
+    <!-- featured episodes section -->
+    <section class="bg-[#1A0B2E] py-28 px-48 flex flex-col ">
         <h3 class="text-5xl font-bold text-center mb-10">Featured Episodes</h3>
-
         <div class="grid grid-cols-3 gap-8 grid-rows-1">
-            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 ">
+            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/B0MDoJE84nE?si=OkEkfht-GgYybo_I"
                     title="YouTube video player"></iframe>
                 <div class=" p-6 ">
@@ -148,7 +150,7 @@
                             src="./assets/clock.png" alt="clock">3:09 min</p>
                 </div>
             </div>
-            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 ">
+            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/yxqw9ju2D_E?si=dKus8m25RaUoGNM7"
                     title="YouTube video player"></iframe>
                 <div class=" p-6 ">
@@ -162,21 +164,75 @@
                             src="./assets/clock.png" alt="clock">3:10 min</p>
                 </div>
             </div>
-            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 ">
+            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/DjNq6N026bQ?si=wIvVTiEo0dsr2Pwj"
                     title="YouTube video player"></iframe>
                 <div class=" p-6 ">
                     <h3 class="text-2xl font-bold">MAh3UQ HAQUE - AIRTEL PHONK</h3>
                     <p class="leading-6 opacity-60 my-3 ">Original Song: Airtel
-                        Audio Credits: Song - Airtel Ringtone Music Composer - A. R. RAHMAN PHONK REMIX: Mashuq Haque
+                        Audio Credits: Song - Airtel Ringtone Music Composer - A. R. RAHMAN PHONK
                     </p>
                     <p class="text-[#00FF88] font-semibold leading-6 flex justify-start gap-1.5 items-center "><img
                             src="./assets/clock.png" alt="clock">1:32 min</p>
                 </div>
             </div>
         </div>
+        <h3 class="mt-28 text-5xl font-bold text-center">Meet the Host</h3>
+        <div class="mt-10 p-10 flex gap-24 bg-[#35116566] rounded-4xl  ">
+            <img src="./assets/host.png" alt="Host Image">
+            <div class="">
+                <h3 class="text-3xl font-bold mb-4 ">Alex Johnson</h3>
+                <p class="opacity-60 leading-6 mb-4">
+                    Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for
+                    over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares
+                    insights from industry leaders and practical advice for anyone looking to grow in tech.
+                </p>
+                <div class="flex gap-2 items-center">
+                    <div class="border border-[#533C72] p-2.5 rounded-full ">
+                        <img src="./assets/linkedin.png" alt="LinkedIn Icon">
+                    </div>
+                    <div class="border border-[#533C72] p-2.5 rounded-full ">
+                        <img src="./assets/x.png" alt="X Icon">
+                    </div>
+                    <div class="border border-[#533C72] p-2.5 rounded-full ">
+                        <img src="./assets/instagram.png" alt="Instagram Icon">
+                    </div>
+                    <div class="border border-[#533C72] p-2.5 rounded-full ">
+                        <img src="./assets/youtube.png" alt="YouTube Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+
+    <!-- footer section  -->
+    <footer class="footer-bg p-32 flex flex-col gap-8 items-center ">
+        <img src="./assets/TechWave.svg" alt="TechWave Logo" class="">
+        <div class="flex gap-10">
+            <div class="flex gap-2 items-center justify-center">
+                <img src="./assets/spotify.png" alt="Spotify Icon" class="">
+                <p class="font-medium opacity-60">Spotify</p>
+            </div>
+            <div class="flex gap-2 items-center justify-center">
+                <img src="./assets/apple-podcast.png" alt="Apple Podcast Icon" class="">
+                <p class="font-medium opacity-60">Apple Podcasts</p>
+            </div>
+            <div class="flex gap-2 items-center justify-center">
+                <img src="./assets/youtube-podcast.png" alt="YouTube Podcast Icon" class="">
+                <p class="font-medium opacity-60">YouTube</p>
+            </div>
+            <div class="flex gap-2 items-center justify-center">
+                <img src="./assets/twitter.png" alt="Twitter Icon" class="">
+                <p class="font-medium opacity-60">Twitter</p>
+            </div>
+        </div>
+        <p class="opacity-60 leading-6">© 2026 TechWave Podcast. All rights reserved. </p>
+
+
+
+    </footer>
+
+
 </body>
 
 </html>
