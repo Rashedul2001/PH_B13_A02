@@ -1,7 +1,7 @@
 /*for the intellisense of tailwindcss in vscode*/
 @import "tailwindcss";
 
-.inter {
+.font-inter {
     font-family: "Inter";
     font-optical-sizing: auto;
 }
