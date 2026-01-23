@@ -99,6 +99,7 @@
             <p class="uppercase opacity-80 mt-4 ">Industry Experts</p>
         </div>
     </section>
+    <!-- TODO: fix the first four height  in the grid  -->
     <!-- why choose section -->
     <!-- I'm rebuilding this page from mobile to desktop view. -->
     <section class="bg-[#230E3D] py-10 px-5 lg:px-52 lg:py-32 ">
@@ -146,54 +147,59 @@
     </section>
 
     <!-- featured episodes section -->
-    <section class="bg-[#1A0B2E] py-28 px-48 flex flex-col hidden ">
-        <h3 class="text-5xl font-bold text-center mb-10">Featured Episodes</h3>
-        <div class="grid grid-cols-3 gap-8 grid-rows-1">
-            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
+    <section class="bg-[#1A0B2E] px-5 py-10 lg:py-28 lg:px-48 ">
+        <h3 class="text-3xl lg:text-5xl font-bold text-center mb-6 lg:mb-10">Featured Episodes</h3>
+        <div class="lg:grid grid-cols-3 gap-8 grid-rows-1">
+            <div class="bg-[#250D44] mb-4 lg:mb-0 grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/B0MDoJE84nE?si=OkEkfht-GgYybo_I"
                     title="YouTube video player"></iframe>
-                <div class=" p-6 ">
-                    <h3 class="text-2xl font-bold">Discover the CITYCELL </h3>
-                    <p class="leading-6 opacity-60 my-3 ">This remake was created using AI, blending the timeless warmth
+                <div class="p-4 lg:p-6 ">
+                    <h3 class="text-xl lg:text-2xl font-bold">Discover the CITYCELL </h3>
+                    <p class="leading-6 opacity-60 my-2 lg:my-3 ">This remake was created using AI, blending the
+                        timeless warmth
                         of
                         Cello, Violin, and Piano to breathe new life into the nostalgic melody. </p>
                     <p class="text-[#00FF88] font-semibold leading-6 flex justify-start gap-1.5 items-center "><img
-                            src="./assets/clock.png" alt="clock">3:09 min</p>
+                            src="./assets/clock.png" alt="duration">3:09 min</p>
                 </div>
             </div>
-            <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
+            <div class="bg-[#250D44] mb-4 lg:mb-0 grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/yxqw9ju2D_E?si=dKus8m25RaUoGNM7"
                     title="YouTube video player"></iframe>
-                <div class=" p-6 ">
-                    <h3 class="text-2xl font-bold">
+                <div class="p-4 lg:p-6 ">
+                    <h3 class="text-xl lg:text-2xl font-bold">
                         Byabodhan | ব্যবধান | Sohan Ali | Official Audio</h3>
-                    <p class="leading-6 opacity-60 my-3 ">এ শহরে নেই, মায়ের মতো চাঁদ
+                    <p class="leading-6 opacity-60 my-2 lg:my-3 ">এ শহরে নেই, মায়ের মতো চাঁদ
                         জোনাকি পোকা, তাসনিম রাত
                         যোগাযোগ নেই, আছে অযুহাত
                         তোমার আমার ।</p>
                     <p class="text-[#00FF88] font-semibold leading-6 flex justify-start gap-1.5 items-center "><img
-                            src="./assets/clock.png" alt="clock">3:10 min</p>
+                            src="./assets/clock.png" alt="duration">3:10 min</p>
                 </div>
             </div>
             <div class="bg-[#250D44] grid grid-rows-2 grid-cols-1 rounded-3xl overflow-hidden ">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/DjNq6N026bQ?si=wIvVTiEo0dsr2Pwj"
                     title="YouTube video player"></iframe>
-                <div class=" p-6 ">
-                    <h3 class="text-2xl font-bold">MAh3UQ HAQUE - AIRTEL PHONK</h3>
-                    <p class="leading-6 opacity-60 my-3 ">Original Song: Airtel
+                <div class="p-4 lg:p-6 ">
+                    <h3 class="text-xl lg:text-2xl font-bold">MAh3UQ HAQUE - AIRTEL PHONK</h3>
+                    <p class="leading-6 opacity-60 my-2 lg:my-3 ">Original Song: Airtel
                         Audio Credits: Song - Airtel Ringtone Music Composer - A. R. RAHMAN PHONK
                     </p>
                     <p class="text-[#00FF88] font-semibold leading-6 flex justify-start gap-1.5 items-center "><img
-                            src="./assets/clock.png" alt="clock">1:32 min</p>
+                            src="./assets/clock.png" alt="duration">1:32 min</p>
                 </div>
             </div>
         </div>
-        <h3 class="mt-28 text-5xl font-bold text-center">Meet the Host</h3>
-        <div class="mt-10 p-10 flex gap-24 bg-[#35116566] rounded-4xl  ">
-            <img src="./assets/host.png" alt="Host Image">
+
+        <!-- host part -->
+        <h3 class="mt-14 lg:mt-28 text-3xl lg:text-5xl font-bold text-center">Meet the Host</h3>
+        <div
+            class="mt-6 lg:mt-10 p-6 lg:p-10 flex flex-col items-center lg:flex-row gap-4 lg:gap-24 bg-[#35116566] rounded-3xl lg:rounded-4xl  ">
+            <!-- TODO: fix image size in lg -->
+            <img src="./assets/host.png" alt="Host Image" class="aspect-square w-1/2 lg:w-full">
             <div class="">
-                <h3 class="text-3xl font-bold mb-4 ">Alex Johnson</h3>
-                <p class="opacity-60 leading-6 mb-4">
+                <h3 class="text-2xl text-center lg:text-left lg:text-3xl font-bold mb-4 ">Alex Kumar</h3>
+                <p class="opacity-60 leading-6 mb-4 text-center lg:text-left">
                     Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for
                     over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares
                     insights from industry leaders and practical advice for anyone looking to grow in tech.
