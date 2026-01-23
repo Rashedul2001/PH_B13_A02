@@ -23,12 +23,23 @@
 
 }
 
-.hero-section {
+.hero-bg {
     background-image: url("../assets/hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-bg {
+        background-image: url("../assets/hero-bg-mobile.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
 }
 
 .footer-bg {
@@ -38,12 +49,14 @@
     background-repeat: no-repeat;
     height: 100%;
 }
-.hr1{
+
+.hr1 {
     border: none;
     height: 1px;
     background: #1a022bed;
     margin: 0;
 }
+
 /* .hr2{
     border: none;
     height: 1px;
