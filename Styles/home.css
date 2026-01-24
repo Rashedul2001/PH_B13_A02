@@ -63,3 +63,45 @@
     background: white;
     margin: 0 200px;
 } */
+
+/* i have made it by myself and used up at least 20 hours to learn about all these stuff. I'm just happy right now. */
+.animation {
+    position: relative;
+    overflow: hidden;
+}
+
+.animation>* {
+    position: relative;
+    z-index: 1;
+}
+
+.animation::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg, transparent 48%, #e31cb54a 50%, transparent 52%);
+    inset: -100%;
+    z-index: 0;
+    animation: shine 10s linear infinite alternate;
+}
+
+@keyframes shine {
+    0% {
+        transform: translate(-100%, 100%);
+    }
+
+    25% {
+        transform: translate(-50%, 50%);
+    }
+
+    50% {
+        transform: translate(0%, 0%);
+    }
+
+    75% {
+        transform: translate(50%, -50%);
+    }
+
+    100% {
+        transform: translate(100%, -100%);
+    }
+}
